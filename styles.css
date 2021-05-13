@@ -1,0 +1,221 @@
+/*  #212121 Цвет заголовка: Особенности, Чем мы
+ занимаемся, Наша Команда, Шапка навигация */
+/* #FFFFFF Цвет заголовка Герой, кнопки Герой,
+Подвал адресс, Студио*/
+/* #757575 Шапка эмейл телефон, Особенности текст
+Наша команда текст */
+/* #2196F3 Шапка Web, шапка haver:, Герой кнопка
+Заказать услугу, Web подвал */
+/* rgba(255, 255, 255, 0.6 Подвал эмейл и телефон */
+/* #2F303A Цвет фона Герой, Подвал */
+/* #F5F4FA Цвет фона Наша Команда */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* Шапка */
+
+.container-header {
+  width: 1600px;
+  height: 80px;
+}
+
+.logo-header {
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.web {
+  color: #2196f3;
+}
+
+.site-nav .link {
+  color: #212121;
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav .link {
+  color: #757575;
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
+
+.container-nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  background-color: lawngreen;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+/* Герой */
+
+.hero {
+  width: 1600px;
+  height: 600px;
+  background: #2f303a;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.botton {
+  display: inline-block;
+  padding: 10px 32px;
+  background-color: #2196f3;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  /* margin-left: 700px; */
+}
+
+/* Особенности */
+
+.feature-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.feature-list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся */
+
+/* Наша Команда */
+
+.section-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.section-comanda .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.section-comanda {
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  background: #f5f4fa;
+}
+
+/* Подвал */
+
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+
+  background: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts .address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
