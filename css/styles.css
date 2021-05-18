@@ -31,7 +31,6 @@ ul {
 .site-nav .link {
   text-decoration: none;
   color: #212121;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -41,7 +40,6 @@ ul {
 .site-contact .link {
   color: #757575;
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -66,7 +64,6 @@ ul {
 
 .hero .title {
   color: #ffffff;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -82,7 +79,6 @@ button {
 .button {
   color: #ffffff;
   background-color: #2196f3;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -104,7 +100,6 @@ button {
 /* Особенности */
 
 .features .title {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -114,7 +109,6 @@ button {
 
 .features .text {
   color: #757575;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -124,7 +118,6 @@ button {
 /* Чем мы занимаемся */
 
 .work .title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -135,30 +128,24 @@ button {
 /* Наша команда */
 
 .comanda-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
 .comanda .title {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
 .comanda .text {
   color: #757575;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.35;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -172,7 +159,6 @@ button {
   color: #ffffff;
   text-decoration: none;
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -181,7 +167,6 @@ button {
 
 .address {
   color: #ffffff;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -189,7 +174,6 @@ button {
 }
 
 .footer-contact .contact {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
